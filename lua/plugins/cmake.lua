@@ -1,5 +1,5 @@
 return {
-
-    'Civitasv/cmake-tools.nvim', opts = {} 
+  "Civitasv/cmake-tools.nvim",
 
 }
+

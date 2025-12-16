@@ -13,6 +13,16 @@ augroup END
 
 vim.g.mapleader  = " "
 
+-- open terminal in horizontal split
 vim.api.nvim_set_keymap('n' , '<Leader>t' , ':botright terminal<CR>:startinsert<CR>' , {noremap = true , silent = true})
+
+--close terminal in horizontal split
 vim.api.nvim_set_keymap('t', '<Leader>q', [[<C-\><C-n>:q<CR>]], { noremap = true, silent = true })
+
+
+-- to build a Cmake file 
+vim.keymap.set("n", "<leader>cb", "<cmd>CMakeBuild<cr>", { desc = "CMake Build" })
+
+-- to run a CMake file and build if needed
+vim.keymap.set("n", "<leader>cr", "<cmd>CMakeRun<cr>", { desc = "CMake Run" })
 
