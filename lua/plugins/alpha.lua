@@ -1,3 +1,4 @@
+
 return {
   "goolord/alpha-nvim",
   dependencies = {
@@ -29,3 +30,4 @@ return {
     alpha.setup(dashboard.opts)
   end,
 }
+

@@ -36,13 +36,5 @@ require("lazy").setup("plugins")
 
 
 
---vim.cmd("colorscheme tokyonight")
-
-
-
-
-
-
-
 
 
